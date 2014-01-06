@@ -8,7 +8,11 @@ import core.Case;
 import core.Grid;
 
 public class Main extends JFrame implements ActionListener {
-	private JButton[][] cases;
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private JButton[][] cases; //This is a comment
 	private JPanel panel = new JPanel();
 	private int l, c;
 	Grid g;
